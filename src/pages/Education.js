@@ -4,6 +4,7 @@ import {Accordion, Container} from 'react-bootstrap';
 
 const Education = () => {
   return (
+   <>
     <Container>
       <h2 className='display-1 fw-bold text-center'>My Education</h2>
       <p className='text-center'>These are my academic qualifications:</p>
@@ -53,6 +54,7 @@ const Education = () => {
     </Accordion>
       </Container>
     </Container>
+   </>
   );
 };
 

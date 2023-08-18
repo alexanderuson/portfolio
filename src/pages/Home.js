@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
+   <>
     <div className='d-flex justify-content-center align-items-center' >
       <Row className='hero'>
         <Col className='d-flex justify-content-center align-items-center'>
@@ -27,6 +28,7 @@ const Home = () => {
         </Col>
       </Row>
     </div>
+   </>
   );
 };
 

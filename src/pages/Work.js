@@ -4,6 +4,7 @@ import { Carousel, Image, Container,  Row, Col } from 'react-bootstrap';
 
 const Work = () => {
   return (
+   <>
     <Container>
       <Row>
       <Col>
@@ -60,6 +61,7 @@ const Work = () => {
       </Col>
     </Row>
     </Container>
+   </>
   );
 };
 
